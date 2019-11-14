@@ -35,5 +35,9 @@ public class Main {
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
 
+        int myIntTotal = (myMinByteValue / 2);
+        byte myByteTotal = (byte) (myMinByteValue / 2);
+        short myShortTotal = (short) (myMinByteValue / 2);
+
     }
 }
